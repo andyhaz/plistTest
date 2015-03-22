@@ -14,6 +14,10 @@
 		E54973F719FB5DE0005A05A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54973F619FB5DE0005A05A1 /* Images.xcassets */; };
 		E54973FA19FB5DE0005A05A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E54973F819FB5DE0005A05A1 /* LaunchScreen.xib */; };
 		E549740619FB5DE0005A05A1 /* plistTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E549740519FB5DE0005A05A1 /* plistTestTests.m */; };
+		E549741019FB610E005A05A1 /* listdata1.plist in Resources */ = {isa = PBXBuildFile; fileRef = E549740F19FB610E005A05A1 /* listdata1.plist */; };
+		E5C8ADED1A07056500395825 /* plistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C8ADEC1A07056500395825 /* plistManager.m */; };
+		E5DE58BA19FB71F8008202CB /* level01.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5DE58B919FB71F8008202CB /* level01.plist */; };
+		E5FB04CE1A05881A007952B3 /* gamelevels.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5FB04CD1A05881A007952B3 /* gamelevels.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		E54973FF19FB5DE0005A05A1 /* plistTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plistTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E549740419FB5DE0005A05A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E549740519FB5DE0005A05A1 /* plistTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = plistTestTests.m; sourceTree = "<group>"; };
+		E549740F19FB610E005A05A1 /* listdata1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listdata1.plist; sourceTree = "<group>"; };
+		E5C8ADEB1A07056500395825 /* plistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plistManager.h; sourceTree = "<group>"; };
+		E5C8ADEC1A07056500395825 /* plistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plistManager.m; sourceTree = "<group>"; };
+		E5DE58B919FB71F8008202CB /* level01.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level01.plist; sourceTree = "<group>"; };
+		E5FB04CD1A05881A007952B3 /* gamelevels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gamelevels.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +90,15 @@
 		E54973E819FB5DE0005A05A1 /* plistTest */ = {
 			isa = PBXGroup;
 			children = (
+				E5FB04CD1A05881A007952B3 /* gamelevels.plist */,
 				E54973ED19FB5DE0005A05A1 /* AppDelegate.h */,
 				E54973EE19FB5DE0005A05A1 /* AppDelegate.m */,
 				E54973F019FB5DE0005A05A1 /* ViewController.h */,
 				E54973F119FB5DE0005A05A1 /* ViewController.m */,
+				E5C8ADEB1A07056500395825 /* plistManager.h */,
+				E5C8ADEC1A07056500395825 /* plistManager.m */,
+				E549740F19FB610E005A05A1 /* listdata1.plist */,
+				E5DE58B919FB71F8008202CB /* level01.plist */,
 				E54973F319FB5DE0005A05A1 /* Main.storyboard */,
 				E54973F619FB5DE0005A05A1 /* Images.xcassets */,
 				E54973F819FB5DE0005A05A1 /* LaunchScreen.xib */,
@@ -199,9 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5DE58BA19FB71F8008202CB /* level01.plist in Resources */,
 				E54973F519FB5DE0005A05A1 /* Main.storyboard in Resources */,
 				E54973FA19FB5DE0005A05A1 /* LaunchScreen.xib in Resources */,
+				E549741019FB610E005A05A1 /* listdata1.plist in Resources */,
 				E54973F719FB5DE0005A05A1 /* Images.xcassets in Resources */,
+				E5FB04CE1A05881A007952B3 /* gamelevels.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C8ADED1A07056500395825 /* plistManager.m in Sources */,
 				E54973F219FB5DE0005A05A1 /* ViewController.m in Sources */,
 				E54973EF19FB5DE0005A05A1 /* AppDelegate.m in Sources */,
 				E54973EC19FB5DE0005A05A1 /* main.m in Sources */,
@@ -346,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = plistTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = plistTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +434,7 @@
 				E549740B19FB5DE0005A05A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E549740C19FB5DE0005A05A1 /* Build configuration list for PBXNativeTarget "plistTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +443,7 @@
 				E549740E19FB5DE0005A05A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

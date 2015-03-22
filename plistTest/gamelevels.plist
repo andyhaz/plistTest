@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>config_version</key>
+	<string>0001</string>
+	<key>levelID:0001</key>
+	<dict>
+		<key>levelName</key>
+		<string>intro</string>
+		<key>lock</key>
+		<string>no</string>
+		<key>mapName</key>
+		<string>tiled_puffer_demo2.tmx</string>
+		<key>imageData</key>
+		<string>tiled_puffer_images.png</string>
+		<key>treasureAmount</key>
+		<string>1000</string>
+		<key>powerAmount</key>
+		<string>2</string>
+		<key>healthAmount</key>
+		<string>100</string>
+		<key>spawnAmount</key>
+		<string>1</string>
+		<key>enemyBonusGold</key>
+		<string>5</string>
+		<key>subGoldAmount</key>
+		<string>10</string>
+		<key>subHealth</key>
+		<string>10</string>
+		<key>addHealth</key>
+		<string>15</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<string>1.0</string>
+	<key>level01</key>
+	<dict>
+		<key>levelname</key>
+		<string>first level</string>
+		<key>filename</key>
+		<string>01.tmx</string>
+	</dict>
+	<key>level02</key>
+	<dict>
+		<key>levelname</key>
+		<string>secon level</string>
+		<key>filename</key>
+		<string>02.tmx</string>
+	</dict>
+</dict>
+</plist>
